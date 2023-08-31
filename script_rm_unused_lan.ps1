@@ -11,6 +11,3 @@ ForEach ($Dev in $Devs) {
 }
 
 Pause
-Write-Host "System restart is required to complete changes."
-Read-Host -Prompt "Press any key to reboot or CTRL+C to quit" | Out-Null
-Restart-Computer
